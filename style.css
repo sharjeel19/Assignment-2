@@ -8,6 +8,9 @@ body,html{
 height: 100%; 
 
 }
+html{
+    scroll-behavior: smooth;
+}
 .hero-section{
 
     background-image: url("Photo/pexels-tubarones-photography-2764976.jpg");
@@ -34,8 +37,8 @@ padding-top: 20%;
     padding-bottom: 5%;
 
 }
-.bg-porfolio{
-    background-color: #2f2f2f;
+.bg-portfolio{
+    background-color: #2f2f2f !important;
      
 }
 
@@ -47,5 +50,91 @@ padding-top: 20%;
     margin-top: 15px;
     display: block;
     
+
+}
+/* resume sectiom*/
+.bg-resume-item{
+
+    background-color: #434343;
+}
+
+.icon-data{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.text-green{
+
+    color: #bac964;
+     
+}
+
+.resume-item-title{
+    font-size: 22px ;
+    font-weight: 100;
+
+}
+.text-grey{
+
+    color: #777777;
+}
+
+/*About section*/
+
+.btn-success{
+    background-color: #bac964;
+    color: white;
+    border: none;
+    font-weight: 100;
+    padding:10px 20px 10px 20px ;
+    border-radius: 20px ;
+
+}
+
+button.btn-success:hover{
+    background-color: #bac930;
+    color: white;
+}
+button.btn-dark{
+    font-weight: 100;
+    padding: 10px 20px 10px 20px;
+    border: 20px;
+}
+
+/* service section*/
+
+.bg-icon{
+    background-color: #bac954;
+    height: 100px;
+    width: 100px;
+    font-size: 64px;
+    border-radius: 50px;
+
+
+     
+}
+
+.service-icon-color{
+    color: #434343;
+}
+
+/*  blog section*/
+.blog-title{
+font-size: 18px;
+font-weight: 100;
+
+}
+
+.nav-item-size{
+    font-size: 20px;
+}
+
+
+
+/*   navbar color*/
+
+.nav-link{
+    color: white !important;
 
 }
